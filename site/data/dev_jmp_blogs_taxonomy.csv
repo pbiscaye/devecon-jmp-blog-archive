@@ -1,0 +1,81 @@
+﻿dimension,value_label,definition
+Geography,Africa,Use when the featured paper's substantive study scope is Africa as a continent or a broad Africa-wide setting that should not be described as Sub-Saharan Africa.
+Geography,Global scope,Use for truly global scope or cross-country scope where specific countries are not the main study settings.
+Geography,Latin America and Caribbean,Use when the study setting is regional or when country detail is unavailable but Latin America and Caribbean is substantively the setting.
+Geography,Multi-country,Use for studies spanning multiple countries. Also assign country:ISO3 values for known country settings so public country filters remain intuitive.
+Geography,No geographic study setting or not applicable,"Use for papers with no geographic study setting, such as abstract methods, evidence synthesis, or document-level studies without a place-specific setting."
+Geography,South Asia,Use when the study setting is regional or when country detail is unavailable but South Asia is substantively the setting.
+Geography,Sub-Saharan Africa,Use when the study setting is regional or when country detail is unavailable but Sub-Saharan Africa is substantively the setting.
+Research method,Cross-sectional observational,Cross-sectional observational empirical analysis where this is the main high-level design. Keep distinct from descriptive_measurement.
+Research method,Descriptive / measurement,"Use only when descriptive analysis, measurement, data construction, validation, accounting, survey measurement, or related non-causal empirical work is itself a central methodological contribution. Do not tag merely because the paper includes descriptive statistics, constructed indices, or measurement exercises inside a broader causal design."
+Research method,Difference-in-differences / event study,"Difference-in-differences, event-study implementations of DiD, or closely related treated/control changes over time. Do not separately tag event study when it is an implementation of DiD."
+Research method,Instrumental variables,Instrumental variables designs based on first-stage and exclusion-restriction logic.
+Research method,Lab experiment,Laboratory experiments and lab-in-the-field experiments. Do not distinguish lab vs lab-in-the-field as separate top-level public categories. May co-occur with rct when randomized treatment assignment is genuinely central to the featured paper.
+Research method,Other quasi-experimental design,"A clearly causal or quasi-experimental design that does not fit RCT, DiD/event study, RD, IV, panel FE/TWFE, selection-on-observables, or cross-sectional observational analysis. This is not a vague default bucket."
+Research method,Panel fixed effects / TWFE,Panel fixed-effects or two-way fixed-effects observational designs when this is the useful high-level empirical design and there is not a clearer DiD/event-study design. Do not add automatically when a DiD regression contains fixed effects.
+Research method,Randomized controlled trial,"Any randomized controlled trial or randomized experiment with randomized treatment assignment. Do not distinguish individual, cluster, field, encouragement, rollout, or audit/correspondence variants in the active public taxonomy; preserve those details in evidence or reviewer notes when useful. Do not infer RCT solely from experimental tasks or a lab setting."
+Research method,Regression discontinuity,Regression discontinuity or RDD designs where treatment changes discontinuously at a threshold or cutoff.
+Research method,Research methods / econometrics,"Use when the featured paper's principal methodological contribution develops, evaluates, validates, or synthesizes research methodology itself. This includes econometric/statistical methodology, causal-identification or inference methods, partial identification/bounds, experimental-design methodology, meta-analysis/evidence-synthesis methodology, external-validity methodology, and research-practice infrastructure such as trial registration when these are central contributions. This category may co-occur with a substantive design such as RCT, IV, or descriptive_measurement when both are genuinely central. Do not use it merely because a paper applies standard econometric methods."
+Research method,Selection on observables,"Selection-on-observables, matching, propensity-score, reweighting, balancing, or related conditional-on-observables strategies when this is the main identification strategy."
+Research method,Structural / theoretical modeling,"Structural estimation, calibration, simulation, or substantive analytical/theoretical economic modeling when the model itself is a central methodological contribution of the featured paper. This includes papers whose primary contribution is developing and analyzing a theoretical model, including analytical results and model simulations. Do not tag papers merely because they contain a simple theoretical or equilibrium model used to interpret otherwise empirical results."
+Research topic,Agriculture and food systems,"Agriculture, farming, food production, agricultural markets, crop/livestock technology, food systems, and agricultural livelihoods."
+Research topic,"Climate, environment, and natural resources","Climate, weather shocks, pollution, environmental markets, conservation, natural resources, water, forests, soils, and environmental regulation."
+Research topic,"Conflict, crime, and violence","Conflict, crime, violence, coercion, insecurity, contentious politics, and safety when central to the featured paper. Violence outcomes such as IPV may also receive this topic when violence is the central object."
+Research topic,Education and human capital,"Education, learning, schooling, skills, training, human-capital accumulation, and education-system outcomes."
+Research topic,"Firms, entrepreneurship, and productivity","Firm behavior, entrepreneurship, management, business growth, productivity, and firm performance. Use industrial_organization instead or additionally when market structure, market power, or competition is central."
+Research topic,Gender,"Gender differences, gender norms, discrimination, women's or men's outcomes, representation, gendered access to opportunities, and gender-based constraints."
+Research topic,Health and nutrition,"Health, nutrition, disease, health systems, medical research, health-care access, health behavior, and health outcomes."
+Research topic,ICT and digitalization,"ICT, digital platforms, digital services, algorithms, digitization of markets or services, online work, mobile or internet technologies, and related digital transformation when central. Distinct from information/media and from technology adoption."
+Research topic,Industrial organization,"Competition, market structure, firm interaction, market power, monopsony, organization of production or markets, and strategic behavior by firms or employers. Do not use for generic firm outcomes."
+Research topic,Information and media,"Information provision, communication, media, transparency, social media, information exposure, belief updating through information, and related information frictions when central. Do not use merely because a paper communicates something as part of an intervention."
+Research topic,Infrastructure and energy,"Infrastructure, transport systems, roads, irrigation infrastructure, electrification, energy access, utilities, and public works."
+Research topic,Intrahousehold and family decision-making,"Bargaining, household or couple decision-making, allocation within households, fertility or family decisions when the intrahousehold mechanism is central, and spousal/parent-child dynamics. Papers may also receive gender when appropriate."
+Research topic,Labor markets,"Employment, wages, hiring, job search, labor supply, worker productivity, unions, labor regulation, and labor-market discrimination."
+Research topic,Migration and urbanization,"Migration, spatial mobility, urbanization, slums, city growth, urban form, and spatial sorting."
+Research topic,Networks,"Social or economic networks, network structure, referrals, contacts, diffusion through ties, and network-mediated opportunities when networks are substantively central. Do not use for incidental peer or contact mentions."
+Research topic,Political economy and governance,"Political behavior, accountability, state capacity, public administration, regulation, governance, elections, civic action, and public-sector institutions."
+Research topic,"Poverty, inequality, and social protection","Poverty dynamics, inequality, redistribution, social protection, cash or asset transfers, safety nets, and poverty traps."
+Research topic,Psychology and behavioral mechanisms,"Beliefs, aspirations, motivation, preferences, salience, behavioral biases, perceptions, norms, self-efficacy, agency beliefs, and psychological mechanisms when central to the featured paper."
+Research topic,Research methods / econometrics,"Research methodology and econometrics as a substantive subject of the paper, including causal inference and identification, statistical/econometric inference, experimental design, partial identification, meta-analysis/evidence synthesis, external validity, research transparency, trial registration, replication/credibility infrastructure, or closely related evaluation methodology when central. Do not assign it merely because a paper uses econometrics."
+Research topic,"Risk, insurance, credit, and household finance","Risk, insurance, credit, savings, household or small-business finance, financial constraints, risk preferences, and financial resilience."
+Research topic,Technology adoption,"Take-up, adoption, use, diffusion, or sustained use of technologies or practices when adoption behavior is central. Do not use for every paper involving a technology."
+Research topic,Trade and industrial policy,"Trade policy, trade shocks, imports/exports, globalization, tariffs, and industrial policy. Use industrial_organization separately when market structure or firm interaction is central."
+Study population,Children,"Children, minors, infants, or adolescents when substantively central."
+Study population,Communities,"Communities, local populations, villages, neighborhoods, or localities as the substantive population, especially for place-based studies with broad community-level effects."
+Study population,Entrepreneurs or firm owners,"Entrepreneurs, firm owners, business owners, retailers, traders, importers, or managers when substantively central. Use free_text_detail for narrower groups."
+Study population,Farmers,"Farmers and agricultural producers generally. Preserve narrower descriptions such as smallholder farmers, cocoa farmers, or tenant farmers in free_text_detail."
+Study population,Firms,"Firms, businesses, establishments, plants, shops, or other firms as the substantive population of interest. Distinct from entrepreneurs_firm_owners, which is for owners or entrepreneurs as people."
+Study population,Health-care providers,"Doctors, nurses, health workers, medical researchers as providers, or health-care professionals."
+Study population,Households,Households or families as the substantive population of interest. Can be used for intrahousehold papers without requiring a more specific couple or dyad population.
+Study population,Low-income households,"Poor, low-income, vulnerable, or poverty-targeted households."
+Study population,Migrants,"Migrants, internal migrants, international migrants, prospective migrants, or migrant households."
+Study population,No substantive population / not applicable,"Use when the paper's substantive object is research methods, estimands, studies, experimental units, or research practice rather than a meaningful human, firm, or community population."
+Study population,Other,Reviewed residual population category. Use when no active population value fits the featured paper or when the population remains deliberately outside the controlled taxonomy after review. Assigning this value does not by itself imply needs_user_review=true; review status is stored separately. Reviewed posts should still include at least one population assignment.
+Study population,Public officials,"Public officials, bureaucrats, civil servants, public employees, elected officials, or public administrators."
+Study population,Refugees or displaced people,"Refugees, internally displaced people, or forcibly displaced populations."
+Study population,Rural residents,"Rural residents, rural households, rural communities, or rural populations when rural status is substantively meaningful. Do not use merely to fill the population field."
+Study population,Students,"Students, pupils, trainees, or learners."
+Study population,Teachers,Teachers or educators.
+Study population,Urban residents,"Urban residents, urban households, city residents, commuters as urban residents, or slum residents when urban status is substantively meaningful. Do not use merely to fill the population field."
+Study population,Voters,"Voters, citizens as voters, or electoral participants."
+Study population,Women,Women or girls when substantively central to the paper.
+Study population,Workers,"Workers, employees, jobseekers, applicants, laborers, gig workers, platform workers, sex workers, commuters as workers, or other labor-market participants. Use free_text_detail for narrower groups."
+Unit of analysis,Administrative region,"Districts, counties, provinces, states, or other administrative regions as observed units."
+Unit of analysis,Child or student,"Children, students, pupils, or learners as observed units."
+Unit of analysis,Community,"Villages, neighborhoods, municipalities, localities, or similar local communities when the relevant empirical unit is a local community."
+Unit of analysis,Country,Countries or economies as observed units.
+Unit of analysis,"Document, text, or media item","Documents, texts, research articles, posts, media items, social-media content, or other textual/media units."
+Unit of analysis,Farmer or farm,"Farmers, farms, or agricultural producers as observed units."
+Unit of analysis,Firm or establishment,"Firms, plants, shops, restaurants, establishments, or businesses as observed units."
+Unit of analysis,Health facility,"Hospitals, clinics, health centers, or other health facilities as observed units."
+Unit of analysis,Household,"Households, families, or household-level observations as observed or analyzed units. Use household and/or individual as appropriate for intrahousehold papers; do not use a separate dyad unit."
+Unit of analysis,Individual,People as individual observations when a more specific person-level unit is not appropriate.
+Unit of analysis,Institution or organization,"Organizations, institutions, agencies, NGOs, public bodies, or other organizational entities."
+Unit of analysis,Local government,"Municipalities, local governments, or local public administrations as observed units."
+Unit of analysis,Market,"Markets, market segments, or market-level units as observed or analyzed units."
+Unit of analysis,Other,Reviewed residual unit-of-analysis category. Use when no active unit value fits the featured paper or when the unit remains deliberately outside the controlled taxonomy after review. Assigning this value does not by itself imply needs_user_review=true; review status is stored separately.
+Unit of analysis,Plot or parcel,"Land plots, parcels, fields, or farms' spatial production units."
+Unit of analysis,School,Schools or educational institutions as observed units.
+Unit of analysis,Spatial cell,"Grid cells, pixels, or other constructed spatial units."
+Unit of analysis,Transaction or contract,"Transactions, contracts, loans, trades, purchases, or agreements as observed units."
+Unit of analysis,Worker,"Workers, jobseekers, applicants, or laborers as observed units."
