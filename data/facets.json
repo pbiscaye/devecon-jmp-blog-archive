@@ -1,0 +1,624 @@
+{
+  "source": [
+    {
+      "label": "Economics That Really Matters",
+      "count": 50
+    },
+    {
+      "label": "World Bank Development Impact",
+      "count": 260
+    }
+  ],
+  "academic_season": [
+    {
+      "label": "2011-12",
+      "count": 8
+    },
+    {
+      "label": "2012-13",
+      "count": 8
+    },
+    {
+      "label": "2013-14",
+      "count": 7
+    },
+    {
+      "label": "2014-15",
+      "count": 18
+    },
+    {
+      "label": "2015-16",
+      "count": 18
+    },
+    {
+      "label": "2016-17",
+      "count": 20
+    },
+    {
+      "label": "2017-18",
+      "count": 19
+    },
+    {
+      "label": "2018-19",
+      "count": 23
+    },
+    {
+      "label": "2019-20",
+      "count": 17
+    },
+    {
+      "label": "2020-21",
+      "count": 21
+    },
+    {
+      "label": "2021-22",
+      "count": 16
+    },
+    {
+      "label": "2022-23",
+      "count": 17
+    },
+    {
+      "label": "2023-24",
+      "count": 35
+    },
+    {
+      "label": "2024-25",
+      "count": 42
+    },
+    {
+      "label": "2025-26",
+      "count": 41
+    }
+  ],
+  "geographies": [
+    {
+      "label": "Africa",
+      "count": 2
+    },
+    {
+      "label": "Argentina",
+      "count": 2
+    },
+    {
+      "label": "Bangladesh",
+      "count": 5
+    },
+    {
+      "label": "Benin",
+      "count": 1
+    },
+    {
+      "label": "Bolivia",
+      "count": 1
+    },
+    {
+      "label": "Brazil",
+      "count": 16
+    },
+    {
+      "label": "Burkina Faso",
+      "count": 1
+    },
+    {
+      "label": "Burundi",
+      "count": 2
+    },
+    {
+      "label": "Cambodia",
+      "count": 1
+    },
+    {
+      "label": "Chile",
+      "count": 5
+    },
+    {
+      "label": "China",
+      "count": 9
+    },
+    {
+      "label": "Colombia",
+      "count": 11
+    },
+    {
+      "label": "Costa Rica",
+      "count": 1
+    },
+    {
+      "label": "Cote d'Ivoire",
+      "count": 3
+    },
+    {
+      "label": "Democratic Republic of the Congo",
+      "count": 4
+    },
+    {
+      "label": "El Salvador",
+      "count": 2
+    },
+    {
+      "label": "Ethiopia",
+      "count": 7
+    },
+    {
+      "label": "Germany",
+      "count": 2
+    },
+    {
+      "label": "Ghana",
+      "count": 10
+    },
+    {
+      "label": "Global scope",
+      "count": 4
+    },
+    {
+      "label": "Guinea-Bissau",
+      "count": 1
+    },
+    {
+      "label": "Honduras",
+      "count": 2
+    },
+    {
+      "label": "India",
+      "count": 66
+    },
+    {
+      "label": "Indonesia",
+      "count": 12
+    },
+    {
+      "label": "Italy",
+      "count": 1
+    },
+    {
+      "label": "Jordan",
+      "count": 1
+    },
+    {
+      "label": "Kenya",
+      "count": 20
+    },
+    {
+      "label": "Latin America and Caribbean",
+      "count": 2
+    },
+    {
+      "label": "Liberia",
+      "count": 1
+    },
+    {
+      "label": "Libya",
+      "count": 1
+    },
+    {
+      "label": "Malawi",
+      "count": 4
+    },
+    {
+      "label": "Mali",
+      "count": 1
+    },
+    {
+      "label": "Mexico",
+      "count": 16
+    },
+    {
+      "label": "Morocco",
+      "count": 1
+    },
+    {
+      "label": "Mozambique",
+      "count": 3
+    },
+    {
+      "label": "Multi-country",
+      "count": 23
+    },
+    {
+      "label": "Myanmar",
+      "count": 2
+    },
+    {
+      "label": "Nepal",
+      "count": 2
+    },
+    {
+      "label": "Niger",
+      "count": 1
+    },
+    {
+      "label": "Nigeria",
+      "count": 6
+    },
+    {
+      "label": "No geographic study setting or not applicable",
+      "count": 8
+    },
+    {
+      "label": "Pakistan",
+      "count": 9
+    },
+    {
+      "label": "Paraguay",
+      "count": 1
+    },
+    {
+      "label": "Peru",
+      "count": 4
+    },
+    {
+      "label": "Philippines",
+      "count": 6
+    },
+    {
+      "label": "Russia",
+      "count": 1
+    },
+    {
+      "label": "Rwanda",
+      "count": 3
+    },
+    {
+      "label": "Senegal",
+      "count": 7
+    },
+    {
+      "label": "South Africa",
+      "count": 7
+    },
+    {
+      "label": "South Asia",
+      "count": 1
+    },
+    {
+      "label": "South Korea",
+      "count": 1
+    },
+    {
+      "label": "Sri Lanka",
+      "count": 2
+    },
+    {
+      "label": "Sub-Saharan Africa",
+      "count": 5
+    },
+    {
+      "label": "Sweden",
+      "count": 1
+    },
+    {
+      "label": "Tanzania",
+      "count": 9
+    },
+    {
+      "label": "Tunisia",
+      "count": 2
+    },
+    {
+      "label": "Turkey",
+      "count": 2
+    },
+    {
+      "label": "Uganda",
+      "count": 17
+    },
+    {
+      "label": "United Kingdom",
+      "count": 1
+    },
+    {
+      "label": "United States",
+      "count": 10
+    },
+    {
+      "label": "Vietnam",
+      "count": 3
+    },
+    {
+      "label": "West Bank and Gaza",
+      "count": 1
+    }
+  ],
+  "research_methods": [
+    {
+      "label": "Cross-sectional observational",
+      "count": 2
+    },
+    {
+      "label": "Descriptive / measurement",
+      "count": 11
+    },
+    {
+      "label": "Difference-in-differences / event study",
+      "count": 70
+    },
+    {
+      "label": "Instrumental variables",
+      "count": 35
+    },
+    {
+      "label": "Lab experiment",
+      "count": 12
+    },
+    {
+      "label": "Other quasi-experimental design",
+      "count": 14
+    },
+    {
+      "label": "Panel fixed effects / TWFE",
+      "count": 21
+    },
+    {
+      "label": "Randomized controlled trial",
+      "count": 127
+    },
+    {
+      "label": "Regression discontinuity",
+      "count": 40
+    },
+    {
+      "label": "Research methods / econometrics",
+      "count": 8
+    },
+    {
+      "label": "Selection on observables",
+      "count": 3
+    },
+    {
+      "label": "Structural / theoretical modeling",
+      "count": 56
+    }
+  ],
+  "research_topics": [
+    {
+      "label": "Agriculture and food systems",
+      "count": 56
+    },
+    {
+      "label": "Climate, environment, and natural resources",
+      "count": 39
+    },
+    {
+      "label": "Conflict, crime, and violence",
+      "count": 29
+    },
+    {
+      "label": "Education and human capital",
+      "count": 44
+    },
+    {
+      "label": "Firms, entrepreneurship, and productivity",
+      "count": 52
+    },
+    {
+      "label": "Gender",
+      "count": 58
+    },
+    {
+      "label": "Health and nutrition",
+      "count": 42
+    },
+    {
+      "label": "ICT and digitalization",
+      "count": 22
+    },
+    {
+      "label": "Industrial organization",
+      "count": 25
+    },
+    {
+      "label": "Information and media",
+      "count": 63
+    },
+    {
+      "label": "Infrastructure and energy",
+      "count": 27
+    },
+    {
+      "label": "Intrahousehold and family decision-making",
+      "count": 35
+    },
+    {
+      "label": "Labor markets",
+      "count": 94
+    },
+    {
+      "label": "Migration and urbanization",
+      "count": 32
+    },
+    {
+      "label": "Networks",
+      "count": 27
+    },
+    {
+      "label": "Political economy and governance",
+      "count": 74
+    },
+    {
+      "label": "Poverty, inequality, and social protection",
+      "count": 51
+    },
+    {
+      "label": "Psychology and behavioral mechanisms",
+      "count": 68
+    },
+    {
+      "label": "Research methods / econometrics",
+      "count": 7
+    },
+    {
+      "label": "Risk, insurance, credit, and household finance",
+      "count": 39
+    },
+    {
+      "label": "Technology adoption",
+      "count": 27
+    },
+    {
+      "label": "Trade and industrial policy",
+      "count": 15
+    }
+  ],
+  "units_of_analysis": [
+    {
+      "label": "Administrative region",
+      "count": 32
+    },
+    {
+      "label": "Child or student",
+      "count": 33
+    },
+    {
+      "label": "Community",
+      "count": 41
+    },
+    {
+      "label": "Country",
+      "count": 3
+    },
+    {
+      "label": "Document, text, or media item",
+      "count": 9
+    },
+    {
+      "label": "Farmer or farm",
+      "count": 38
+    },
+    {
+      "label": "Firm or establishment",
+      "count": 47
+    },
+    {
+      "label": "Health facility",
+      "count": 2
+    },
+    {
+      "label": "Household",
+      "count": 77
+    },
+    {
+      "label": "Individual",
+      "count": 96
+    },
+    {
+      "label": "Institution or organization",
+      "count": 7
+    },
+    {
+      "label": "Local government",
+      "count": 9
+    },
+    {
+      "label": "Market",
+      "count": 10
+    },
+    {
+      "label": "Other",
+      "count": 1
+    },
+    {
+      "label": "Plot or parcel",
+      "count": 7
+    },
+    {
+      "label": "School",
+      "count": 12
+    },
+    {
+      "label": "Spatial cell",
+      "count": 6
+    },
+    {
+      "label": "Transaction or contract",
+      "count": 6
+    },
+    {
+      "label": "Worker",
+      "count": 44
+    }
+  ],
+  "study_populations": [
+    {
+      "label": "Children",
+      "count": 28
+    },
+    {
+      "label": "Communities",
+      "count": 37
+    },
+    {
+      "label": "Entrepreneurs or firm owners",
+      "count": 20
+    },
+    {
+      "label": "Farmers",
+      "count": 49
+    },
+    {
+      "label": "Firms",
+      "count": 41
+    },
+    {
+      "label": "Health-care providers",
+      "count": 3
+    },
+    {
+      "label": "Households",
+      "count": 85
+    },
+    {
+      "label": "Low-income households",
+      "count": 32
+    },
+    {
+      "label": "Migrants",
+      "count": 12
+    },
+    {
+      "label": "No substantive population / not applicable",
+      "count": 4
+    },
+    {
+      "label": "Other",
+      "count": 5
+    },
+    {
+      "label": "Public officials",
+      "count": 19
+    },
+    {
+      "label": "Refugees or displaced people",
+      "count": 5
+    },
+    {
+      "label": "Rural residents",
+      "count": 40
+    },
+    {
+      "label": "Students",
+      "count": 34
+    },
+    {
+      "label": "Teachers",
+      "count": 2
+    },
+    {
+      "label": "Urban residents",
+      "count": 19
+    },
+    {
+      "label": "Voters",
+      "count": 10
+    },
+    {
+      "label": "Women",
+      "count": 54
+    },
+    {
+      "label": "Workers",
+      "count": 69
+    }
+  ]
+}
