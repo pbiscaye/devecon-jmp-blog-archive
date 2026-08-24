@@ -1,7 +1,22 @@
 cff-version: 1.2.0
-title: Development Economics JMP Blog Archive
-message: "Please cite this archive using the final citation supplied with the public release."
+message: "If you use this archive, please cite it as below. Curated data and original documentation are CC-BY-4.0; website and build/source code are separately MIT-licensed."
+title: "Development Economics JMP Blog Archive"
 type: dataset
 authors:
-  - name: "Citation decision pending"
-date-released: "2026-08-23"
+  - family-names: Biscaye
+    given-names: Pierre
+    affiliation: "Université Clermont Auvergne, CERDI, CNRS"
+    orcid: "https://orcid.org/0000-0002-0396-3318"
+version: "1.0"
+repository-code: "https://github.com/pbiscaye/devecon-jmp-blog-archive"
+url: "https://github.com/pbiscaye/devecon-jmp-blog-archive"
+license: "CC-BY-4.0"
+preferred-citation:
+  type: dataset
+  title: "Development Economics JMP Blog Archive"
+  authors:
+    - family-names: Biscaye
+      given-names: Pierre
+      orcid: "https://orcid.org/0000-0002-0396-3318"
+  year: 2026
+  version: "1.0"

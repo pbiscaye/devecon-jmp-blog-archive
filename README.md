@@ -2,67 +2,49 @@
 
 ## Overview
 
-The Development Economics JMP Blog Archive brings together job market paper posts published by the World Bank's Development Impact blog and Economics That Really Matters. It is designed for browsing, teaching, and research exploration of papers featured in these two series, including trends in topics, methods, and geographies over time. It is not a census of all development economics job market papers.
+The Development Economics JMP Blog Archive brings together job-market-paper blog posts published by the World Bank Development Impact blog and Economics That Really Matters. It is designed for searchable exploration of frontier development-economics research featured in these two established sources, descriptive trends in topics, methods, and geographies, and use as a teaching resource.
+
+The archive describes papers featured in these two recurring blog series. It is not a census of all development-economics job market papers.
 
 ## Explore the archive
 
-The static site in `site/` has three pages: Browse archive, Trends, and About. Browse archive provides search, filters, card and table views, and filtered CSV downloads. The About page contains the primary download and documentation links. The site is intended to be served over HTTP, including GitHub Pages-style hosting from a repository subdirectory.
+Repository: https://github.com/pbiscaye/devecon-jmp-blog-archive
+
+The static site has three pages: Browse archive, Trends, and About. Browse archive provides search, filters, card and table views, and filtered CSV downloads. The Trends page summarizes posts over time, topics, methods, and study geographies. The About page contains the primary download and documentation links.
 
 ## Coverage
 
-The archive was launched in August 2026. The current release contains 310 blog-post occurrences: 260 from World Bank Development Impact and 50 from Economics That Really Matters. Cross-posts are retained separately.
+The archive was launched in August 2026. Version 1.0 contains 310 blog-post occurrences: 260 from World Bank Development Impact and 50 from Economics That Really Matters. The unit of observation is the blog-post occurrence, so cross-posted papers are retained separately.
 
-## Local preview
+## What is included
 
-Do not double-click `site/index.html` or open it directly with a `file://` URL. Most browsers block local JavaScript from loading the site's JSON data files that way.
+Records include source, academic season, publication date, blog-post title, canonical blog URL, featured author, job-market institution at posting time, author website when available, reviewed paper title when available, paper link when available, and reviewed classifications for geography, research method, topic, unit of analysis, and study population.
 
-From the repository root, run:
+The public/display title is always the blog-post title. Paper links are convenience links checked as of August 2026 and may point to working-paper or published versions.
 
-```bash
-python -m http.server 8000 -d site
-```
+## Data and downloads
 
-Then open `http://localhost:8000/`.
+The primary data file is `data/dev_jmp_blogs_archive.csv`. It contains one row per blog-post occurrence. Multi-valued fields use ` | ` as the delimiter. Long-form classification files are available as secondary machine-readable data.
 
-To preview the staged public repository layout instead, run:
+Country classifications are conservative and assigned only when countries are supported by the featured blog post. Broader Multi-country, regional, and Global scope values are used where appropriate.
 
-```bash
-python -m http.server 8000 -d public_repo
-```
+## Methodology/classifications
 
-Then open `http://localhost:8000/site/`.
-
-## Trends
-
-The Trends page includes four static visualizations: blog posts over time by source, research-topic counts, research-method shares over time, and a country choropleth. Methods and topics can be multi-valued, so seasonal shares need not sum to 100%.
-
-## Data/download
-
-The primary file is `data/dev_jmp_blogs_archive.csv`. It contains one row per blog-post occurrence. Multi-valued fields use ` | ` as the delimiter. Machine-readable long-form classification files are provided as secondary documentation/data. Downloads and documentation links are listed on the About page.
-
-## Variables/classifications
-
-Records include source, season, date, blog-post title, featured author, job-market institution, author website, paper title and paper link when available, and reviewed classifications for geography, research method, topic, unit of analysis, and study population.
-
-## Methodology
-
-See `docs/methodology.md`. The original blog post is the primary source record. Paper links are convenience links checked as of August 2026 and may point to working-paper or published versions.
+See `docs/methodology.md`, `docs/codebook.md`, and `docs/taxonomy.md`. Source blog posts and available paper materials were reviewed systematically across five dimensions: geography, research methods, topics, units of analysis, and study population. LLM/AI assistance supported systematic extraction and classification; human judgment and review resolved classifications and ambiguous cases.
 
 ## Updating the archive
 
-Future job-market seasons should be appended annually after the two blog series' job-market-paper seasons conclude, using the same source-preservation, enrichment, review, and public-output process while preserving existing occurrence IDs.
-
-## Repository link
-
-The public GitHub repository URL is pending: #
+The archive is intended to be updated annually after the two blog series' job-market-paper seasons conclude, using the same source-preservation, enrichment, review, and public-output process while preserving existing occurrence IDs.
 
 ## Citation
 
-Final citation wording and release DOI are pending. Use `CITATION.cff` as a placeholder until publication.
+Preferred citation for version 1.0:
+
+Biscaye, Pierre. 2026. *Development Economics JMP Blog Archive*. Version 1.0.
 
 ## License
 
-Curated archive data and original documentation are licensed under CC BY 4.0. Website/build/source code is licensed under the MIT License. The licenses apply to this archive's original data, documentation, and code. Blog posts, papers, and other third-party materials linked from the archive remain subject to their respective owners' terms and are not relicensed by this repository.
+Curated archive data and original documentation are licensed under CC BY 4.0. Website/build/source code is licensed under the MIT License. Blog posts, papers, and other third-party materials linked from the archive remain subject to their respective owners' terms and are not relicensed by this repository.
 
 ## Repository structure
 
