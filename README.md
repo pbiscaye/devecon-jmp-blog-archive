@@ -8,6 +8,8 @@ The archive describes papers featured in these two recurring blog series. It is 
 
 ## Explore the archive
 
+Live site: https://pbiscaye.github.io/devecon-jmp-blog-archive/
+
 Repository: https://github.com/pbiscaye/devecon-jmp-blog-archive
 
 The static site has three pages: Browse archive, Trends, and About. Browse archive provides search, filters, card and table views, and filtered CSV downloads. The Trends page summarizes posts over time, topics, methods, and study geographies. The About page contains the primary download and documentation links.
@@ -18,7 +20,7 @@ The archive was launched in August 2026. Version 1.0 contains 310 blog-post occu
 
 ## What is included
 
-Records include source, academic season, publication date, blog-post title, canonical blog URL, featured author, job-market institution at posting time, author website when available, reviewed paper title when available, paper link when available, and reviewed classifications for geography, research method, topic, unit of analysis, and study population.
+Records include source, academic season, publication date, blog-post title, canonical blog URL, featured author, job-market institution at posting time, author website when available, paper title when available, paper link when available, and classifications for geography, research method, topic, unit of analysis, and study population.
 
 The public/display title is always the blog-post title. Paper links are convenience links checked as of August 2026 and may point to working-paper or published versions.
 
