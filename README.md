@@ -1,5 +1,7 @@
 # Development Economics JMP Blog Archive
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22081825.svg)](https://doi.org/10.5281/zenodo.22081825)
+
 ## Overview
 
 The Development Economics JMP Blog Archive brings together job-market-paper blog posts published by the World Bank Development Impact blog and Economics That Really Matters. It is designed for searchable exploration of frontier development-economics research featured in these two established sources, descriptive trends in topics, methods, and geographies, and use as a teaching resource.
@@ -42,7 +44,9 @@ The archive is intended to be updated annually after the two blog series' job-ma
 
 Preferred citation for version 1.0:
 
-Biscaye, Pierre. 2026. *Development Economics JMP Blog Archive*. Version 1.0.
+Biscaye, Pierre. 2026. *Development Economics JMP Blog Archive*. Version 1.0. https://doi.org/10.5281/zenodo.22081825
+
+All versions: https://doi.org/10.5281/zenodo.22081824
 
 ## License
 

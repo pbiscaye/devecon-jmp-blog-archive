@@ -8,6 +8,8 @@ authors:
     affiliation: "Université Clermont Auvergne, CERDI, CNRS"
     orcid: "https://orcid.org/0000-0002-0396-3318"
 version: "1.0"
+doi: "10.5281/zenodo.22081825"
+date-released: "2026-08-24"
 repository-code: "https://github.com/pbiscaye/devecon-jmp-blog-archive"
 url: "https://pbiscaye.github.io/devecon-jmp-blog-archive/"
 license: "CC-BY-4.0"
@@ -20,3 +22,4 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0002-0396-3318"
   year: 2026
   version: "1.0"
+  doi: "10.5281/zenodo.22081825"
